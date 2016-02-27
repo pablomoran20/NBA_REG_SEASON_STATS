@@ -1,5 +1,7 @@
 # NBA_REG_SEASON_STATS
 
+https://pablomoran20.shinyapps.io/NBA_REG_SEASON_STATS/
+
 This application lets you compare a series of statistical data stored in the NBA stats database, between the 2009-10 and the 2013-14 season.
 
 The results are all given in "per game" basis, apart from total wins (per season) and the percentage variables. 
