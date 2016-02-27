@@ -28,6 +28,12 @@ fluidPage(
   ),
   
   mainPanel(
-    plotOutput('plot')
-  )
+    tabsetPanel(
+      tabPanel("Documentation", verbatimTextOutput("help")),
+      tabPanel("Plot", plotOutput("plot"))
+    ))
+  
+  #mainPanel(
+   # plotOutput('plot')
+  #)
 )
